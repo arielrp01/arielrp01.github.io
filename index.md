@@ -4,19 +4,19 @@
 
 ### Data Projects 
 
-[Cyclistic Bike Share Case Study](/sample_page)
+[Data Analysis | Cyclistic Bike Share Case Study](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[JHU Data Science Certification | Activity Monitoring Device Case Study](/pdf/sample_presentation.pdf)
+[Reproducible Research | Activity Monitoring Device Case Study](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[JHU Data Science Certification | UCI HAR Dataset](http://example.com/)
+[Data Preprocessing | UCI HAR Dataset](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[JHU Data Science Certification | Individual Household Electric Power Consumption Dataset](http://example.com/)
+[Exploratory Data Analysis (EDA) | Individual Household Electric Power Consumption Dataset](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
