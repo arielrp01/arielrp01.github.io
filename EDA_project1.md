@@ -1,7 +1,7 @@
 # Exploratory Data Analysis, Project 1 - Individual Household Electric Power Consumption Data Set
 ## Introduction
 
-This project was completed for the Johns Hopkins University/Coursera [Exploratory Data Analysis](https://www.coursera.org/learn/exploratory-data-analysis) course and focused on electric power consumption data. 
+This project was completed for Johns Hopkins University/Coursera [Exploratory Data Analysis](https://www.coursera.org/learn/exploratory-data-analysis) course and focused on electric power consumption data. 
 
 Deliverables: R plots and code
 
