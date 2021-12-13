@@ -3,13 +3,13 @@
 
 This project was completed for the [Johns Hopkins University/Coursera Exploratory Data Analysis](https://www.coursera.org/learn/exploratory-data-analysis) course and focused on electric power consumption data. 
 
-Deliverables: R plots and code | [View on GitHub](https://github.com/arielrp01/ExData_Plotting1)
+Deliverables: R plots and code /| [View on GitHub](https://github.com/arielrp01/ExData_Plotting1)
 
 ## Dataset
 
 Individual Household Electric Power Consumption Data Set from the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine Learning Repository</a>
 
-* <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20MB | 2.07M rows and 9 cols]
+* <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20MB /| 2.07M rows and 9 cols]
 
 * <b>Description</b>: Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available.
 
