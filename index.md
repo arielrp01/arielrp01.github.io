@@ -2,17 +2,21 @@
 
 ---
 
-### Category Name 1 
+### Data Projects 
 
-[Project 1 Title](/sample_page)
+[Cyclistic Bike Share Case Study](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[JHU Data Science Certification | Activity Monitoring Device Case Study](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[JHU Data Science Certification | UCI HAR Dataset](http://example.com/)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+---
+[JHU Data Science Certification | Individual Household Electric Power Consumption Dataset](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
