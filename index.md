@@ -16,7 +16,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Exploratory Data Analysis (EDA) | Individual Household Electric Power Consumption Dataset](/EDA_project1.md)
+[Exploratory Data Analysis (EDA) | Individual Household Electric Power Consumption Dataset](/EDA_project1)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
