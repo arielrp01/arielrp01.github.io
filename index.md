@@ -12,11 +12,11 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Exploratory Data Analysis (EDA) | UCI HAR Dataset](http://example.com/)
+[Exploratory Data Analysis (EDA) | UCI HAR Dataset](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Exploratory Data Analysis (EDA) | Individual Household Electric Power Consumption Dataset](http://example.com/)
+[Exploratory Data Analysis (EDA) | Individual Household Electric Power Consumption Dataset](/ExData_Plotting1)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
