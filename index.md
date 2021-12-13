@@ -12,7 +12,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Data Preprocessing | UCI HAR Dataset](http://example.com/)
+[Exploratory Data Analysis (EDA) | UCI HAR Dataset](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
