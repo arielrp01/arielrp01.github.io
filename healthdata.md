@@ -43,3 +43,13 @@ R packages used included ggplot2, lubridate, and dplyr.
 * Imputed missing values using interval mean to fill in for NA values
 
 * Created a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day
+
+### Visualizations
+
+<img src="https://github.com/arielrp01/RepData_PeerAssessment1/master/PA1_template_files/figure-html/unnamed-chunk-4-1.png?raw=true"/>
+
+<img src="https://github.com/arielrp01/RepData_PeerAssessment1/raw/master/PA1_template_files/figure-html/unnamed-chunk-6-1.png?raw=true"/>
+
+<img src="https://github.com/arielrp01/RepData_PeerAssessment1/raw/master/PA1_template_files/figure-html/unnamed-chunk-10-1.png?raw=true"/>
+
+<img src="https://github.com/arielrp01/RepData_PeerAssessment1/raw/master/PA1_template_files/figure-html/unnamed-chunk-12-1.png?raw=true"/>
