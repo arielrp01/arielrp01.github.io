@@ -47,7 +47,7 @@ Completed the following tasks:
 
 * Fork and clone the [Ex_Data_Plotting1 GitHub repository](https://github.com/rdpeng/ExData_Plotting1).
 
-* Create four plots using the base plotting system.
+* Reproduce four plots using the base plotting system.
 
 * Push all PNG files and R code files to individual git repository.
 
