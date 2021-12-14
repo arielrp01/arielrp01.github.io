@@ -28,7 +28,7 @@ The variables included in this dataset are:
 
 * Produce a single R markdown document that can be processed by knitr and be transformed into an HTML file.
 
-* Fork/clone the [GitHub repository created for this assignment](http://github.com/rdpeng/RepData_PeerAssessment1).
+* Fork/clone the [GitHub repository](http://github.com/rdpeng/RepData_PeerAssessment1) created for this assignment.
 
 * Push completed files into the forked repository on GitHub.
 
