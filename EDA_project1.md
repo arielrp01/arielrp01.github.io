@@ -1,4 +1,4 @@
-# EDA | Individual Household Electric Power Consumption Data Set
+## EDA | Individual Household Electric Power Consumption Data Set
 ## Introduction
 
 This project was completed for Johns Hopkins University/Coursera [Exploratory Data Analysis](https://www.coursera.org/learn/exploratory-data-analysis) course and focused on electric power consumption data. 
