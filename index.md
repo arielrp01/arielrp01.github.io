@@ -9,6 +9,7 @@
 
 ---
 [Data Analysis | Activity Monitoring Device Case Study](/pdf/sample_presentation.pdf)
+
 <img src="images/fitbit.png?raw=true"/>
 
 ---
