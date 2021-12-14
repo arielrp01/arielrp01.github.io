@@ -46,7 +46,7 @@ R packages used included ggplot2, lubridate, and dplyr.
 
 ### Visualizations
 
-<img src="https://github.com/arielrp01/RepData_PeerAssessment1/master/PA1_template_files/figure-html/unnamed-chunk-4-1.png?raw=true"/>
+<img src="https://github.com/arielrp01/RepData_PeerAssessment1/raw/master/PA1_template_files/figure-html/unnamed-chunk-4-1.png?raw=true"/>
 
 <img src="https://github.com/arielrp01/RepData_PeerAssessment1/raw/master/PA1_template_files/figure-html/unnamed-chunk-6-1.png?raw=true"/>
 
