@@ -4,7 +4,7 @@
 
 ### Data Projects 
 
-[Data Analysis | Cyclistic Bike Share Case Study](/cyclistic_cs)
+[Data Analysis | Cyclistic Bike Share Case Study](/bikesharing_cs)
 
 <img src="images/cyclistic_graph.png?raw=true"/>
 
