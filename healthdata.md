@@ -24,7 +24,7 @@ The variables included in this dataset are:
 
 ### Assignment Requirements
 
-* Write a data analysis report. More info at [README.md](https://github.com/arielrp01/RepData_PeerAssessment1/edit/master/README.md).
+* Write a data analysis report. More info at [README.md](https://github.com/arielrp01/RepData_PeerAssessment1).
 
 * Produce a single R markdown document that can be processed by knitr and be transformed into an HTML file.
 
