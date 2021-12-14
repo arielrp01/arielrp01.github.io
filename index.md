@@ -4,12 +4,12 @@
 
 ### Data Projects 
 
-[Data Analysis | Cyclistic Bike Share Case Study](/bikesharing_cs)
+[Data Analysis | Cyclistic Bike Share Case Study](/bikesharing)
 
 <img src="images/cyclistic_graph.png?raw=true"/>
 
 ---
-[Data Analysis | Activity Monitoring Device Case Study](/healthdata_cs)
+[Data Analysis | Activity Monitoring Device Case Study](/healthdata)
 
 <img src="images/fitbit.png?raw=true"/>
 
