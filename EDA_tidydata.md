@@ -32,7 +32,7 @@ Completed the following tasks:
 See [CodeBook.md](https://github.com/arielrp01/Coursera-Cleaning-Data-Project/blob/main/CodeBook.md)
 
 
-## About run_analysis.R
+### About run_analysis.R
 
 *  Merges the training and the test sets to create one dataset.
 
