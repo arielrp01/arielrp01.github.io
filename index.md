@@ -5,7 +5,7 @@
 ### Data Projects 
 
 [Data Analysis | Cyclistic Bike Share Case Study](/sample_page)
-<img src="images/cyclistic_graph?raw=true"/>
+<img src="images/cyclistic_graph.png?raw=true"/>
 
 ---
 [Data Analysis | Activity Monitoring Device Case Study](/pdf/sample_presentation.pdf)
@@ -14,6 +14,7 @@
 
 ---
 [EDA | UCI HAR Dataset](/sample_page)
+
 <img src="images/uci_har.png?raw=true"/>
 
 ---
