@@ -43,6 +43,8 @@ Completed the following tasks:
 
 ### Data Manipulation and Transformation
 
+R packages used included the base plotting system and dplyr.
+
 * Filtered dates of interest, 1/2/2007 and 2/2/2007
 
 * Converted Data and Time with strptime
