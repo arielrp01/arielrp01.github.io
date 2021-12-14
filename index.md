@@ -8,28 +8,20 @@
 <p>&nbsp;</p>
 <img src="images/cyclistic_graph.png?raw=true"/>
 
-R packages: tidyverse, DataExplorer, janitor, and lubridate
-
 ---
 [Data Analysis | Activity Monitoring Device Report](/healthdata)
 
 <img src="images/fitbit.png?raw=true"/>
-
-R packages: ggplot2, lubridate, and dplyr
 
 ---
 [EDA | UCI HAR Dataset](/EDA_tidydata)
 
 <img src="images/uci_har.png?raw=true"/>
 
-R packages: dplyr
-
 ---
 [EDA | Individual Household Electric Power Consumption Dataset](/EDA_project1)
 
 <img src="images/EDA_project1.png?raw=true"/>
-
-R packages: Base plotting system, dplyr
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
