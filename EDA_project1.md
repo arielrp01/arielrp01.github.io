@@ -30,17 +30,6 @@ The following descriptions of the 9 variables in the dataset are taken from the 
 </ol>
 
 
-### Preprocessing Considerations
-
-* Filtered dates of interest, 1/2/2007 and 2/2/2007
-
-* Converted Data and Time with strptime
-
-* Converted Global_active_power to numeric
-
-* Converted Sub_metering values to numeric
-
-
 ### Assignment Requirements
 
 Completed the following tasks:
@@ -50,6 +39,17 @@ Completed the following tasks:
 * Reproduce four plots using the base plotting system.
 
 * Push all PNG files and R code files to individual git repository.
+
+
+### Data Manipulation and Transformation
+
+* Filtered dates of interest, 1/2/2007 and 2/2/2007
+
+* Converted Data and Time with strptime
+
+* Converted Global_active_power to numeric
+
+* Converted Sub_metering values to numeric
 
 
 ### Plots
@@ -65,5 +65,3 @@ Completed the following tasks:
 
 #### Plot 4
 <img src="https://github.com/arielrp01/ExData_Plotting1/blob/master/figure/unnamed-chunk-5.png?raw=true"/>
-
-
