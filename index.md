@@ -9,7 +9,7 @@
 
 ---
 [Data Analysis | Activity Monitoring Device Case Study](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/fitbit.png?raw=true"/>
 
 ---
 [EDA | UCI HAR Dataset](/sample_page)
