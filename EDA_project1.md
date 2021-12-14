@@ -1,4 +1,4 @@
-## EDA | Individual Household Electric Power Consumption Data Set
+## EDA | Individual Household Electric Power Consumption Dataset
 ### Introduction
 
 This project was completed for Johns Hopkins University/Coursera [Exploratory Data Analysis](https://www.coursera.org/learn/exploratory-data-analysis) course and focused on electric power consumption data. 
@@ -9,7 +9,7 @@ Deliverables: R plots and code
 
 ### Dataset
 
-Individual Household Electric Power Consumption Data Set from the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine Learning Repository</a>
+Individual Household Electric Power Consumption Dataset from the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine Learning Repository</a>
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20MB, 2.07M rows and 9 cols]
 
