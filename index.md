@@ -5,7 +5,6 @@
 ### Data Projects 
 
 [Data Analysis | Cyclistic Bike Share Case Study](/bikesharing)
-
 <img src="images/cyclistic_graph.png?raw=true"/>
 
 ---
