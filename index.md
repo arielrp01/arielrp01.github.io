@@ -9,7 +9,7 @@
 <img src="images/cyclistic_graph.png?raw=true"/>
 
 ---
-[Data Analysis | Activity Monitoring Device Case Study](/healthdata)
+[Data Analysis | Activity Monitoring Device Report](/healthdata)
 
 <img src="images/fitbit.png?raw=true"/>
 
