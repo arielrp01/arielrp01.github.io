@@ -33,7 +33,7 @@ Completed the following tasks:
 
 ### Data Manipulation and Transformation
 
-R packages used included dplyr. More info at [CodeBook.md](https://github.com/arielrp01/Coursera-Cleaning-Data-Project/blob/main/CodeBook.md)
+R packages used included dplyr. More info at [CodeBook.md](https://github.com/arielrp01/Coursera-Cleaning-Data-Project/blob/main/CodeBook.md).
 
 
 ### About run_analysis.R
