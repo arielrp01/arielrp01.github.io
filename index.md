@@ -4,35 +4,24 @@
 
 ### Data Projects 
 
-[Data Analysis | Cyclistic Bike Share Case Study](/sample_page)
+[Cyclistic Bike Share Case Study](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
+Data Analysis
 
 ---
-[Reproducible Research | Activity Monitoring Device Case Study](/pdf/sample_presentation.pdf)
+[Activity Monitoring Device Case Study](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
+Data Analysis
 
 ---
-[Exploratory Data Analysis (EDA) | UCI HAR Dataset](/sample_page)
+[UCI HAR Dataset](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
+Exploratory Data Analysis
 
 ---
-[Exploratory Data Analysis (EDA) | Individual Household Electric Power Consumption Dataset](/EDA_project1)
+[Individual Household Electric Power Consumption Dataset](/EDA_project1)
 <img src="images/EDA_project1.png?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
-
+Exploratory Data Analysis
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
