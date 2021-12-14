@@ -36,10 +36,10 @@ The variables included in this dataset are:
 
 ### Data Manipulation and Transformation
 
+R packages used included ggplot2, lubridate, and dplyr.
+
 * Reformated date column
 
 * Imputed missing values using interval mean to fill in for NA values
 
 * Created a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day
-
-R packages used included ggplot2, lubridate, and dplyr.
