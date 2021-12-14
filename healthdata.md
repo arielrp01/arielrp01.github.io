@@ -11,7 +11,7 @@ Deliverables: Data analysis report (.Rmd, .md, and HTML formats], README.md, and
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip">Activity Monitoring Dataset</a> [52K, 17,568 rows and 3 cols]
 
-* <b>Description</b>: The device collects data at 5-minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November 2012 and include the number of steps taken in 5-minute intervals each day.
+* <b>Description</b>: The device collects data at 5-minute intervals throughout the day. The data consists of two months of data from an anonymous individual collected during the months of October and November 2012 and include the number of steps taken in 5-minute intervals each day.
 
 The variables included in this dataset are:
 
