@@ -1,4 +1,4 @@
-## Data Analysis | Activity Monitoring Device Report
+## Data Analysis | Cyclistic Bike Share Case Study
 ### Introduction
 
 This project was completed for the [Google Data Analytics Capstone](https://www.coursera.org/learn/google-data-analytics-capstone) course and focused on analyzing biksharing data and making recommendations for converting casual users to annual members. 
