@@ -3,7 +3,7 @@
 
 This project was completed for the [Google Data Analytics Capstone](https://www.coursera.org/learn/google-data-analytics-capstone) course and focused on analyzing biksharing data and making recommendations for converting casual users to annual members. 
 
-Deliverables: Case study (.Rmd and .md formats), README.md, and visualizations 
+Deliverables: Analysis report (.Rmd and .md formats), README.md, visualizations, and additional documentation
 
 [View on GitHub](https://github.com/arielrp01/CourseraDataAnalyticsCapstone)
 
@@ -15,19 +15,11 @@ Deliverables: Case study (.Rmd and .md formats), README.md, and visualizations
 
 ### Assignment Requirements
 
-Produce a report with the following deliverables:
+* Select and combine 12 months of data into a single dataset.
 
-* A clear statement of the business task
+* Clean, transform, and analyze the dataset.
 
-* A description of all data sources used
-
-* Documentation of any cleaning or manipulation of data
-
-* A summary of your analysis
-
-* Supporting visualizations and key findings
-
-* Your top three recommendations based on your analysis
+* Produce an analysis report with supporting visualizations, key findings, and your top three recommendations.
 
 
 ### Data Manipulation and Transformation
