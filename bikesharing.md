@@ -9,7 +9,7 @@ Deliverables: Case study (.Rmd and .md formats), README.md, and visualizations
 
 ### Dataset
 
-* <b>Dataset</b>: <a href=" https://divvy-tripdata.s3.amazonaws.com/index.html">Cyclistic Data Archive</a> [, 3.4M rows and 13 cols]
+* <b>Dataset</b>: <a href=" https://divvy-tripdata.s3.amazonaws.com/index.html">Cyclistic Data Archive</a> [688.7 MB, 3.4M rows and 13 cols]
 
 * <b>Description</b>: This project used bikesharing data from April 2020 to March 2021. The data has been made available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement). Due to data privacy concerns, the data was anonoymized to protect riders’ personally identifiable information.
 
