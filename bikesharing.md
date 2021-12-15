@@ -26,19 +26,19 @@ Deliverables: Analysis report (.Rmd and .md formats), README.md, visualizations,
 
 R packages used included tidyverse, DataExplorer, janitor, and lubridate.
 
-* Combine 12 CSVs into a single file.
+* Combined 12 CSVs into a single file.
 
-* Use DataExplorer for advanced data exploration.
+* Used DataExplorer for advanced data exploration.
 
-* Remove empty columns and rows.
+* Removed empty columns and rows.
 
-* Create columns for date, month, day, year, weekday, start_hour, end_hour, and season.
+* Created columns for date, month, day, year, weekday, start_hour, end_hour, and season.
 
-* Calculate ride length and create new column.
+* Calculated ride length and create new column.
 
-* Change data type for ride_length to numeric.
+* Changed data type for ride_length to numeric.
 
-* Omit NAs, negative trip lengths, and maintenance checks.
+* Omitted NAs, negative trip lengths, and maintenance checks.
 
 More info via the [Cyclistic Bikesharing Case Study .Rmd file](https://github.com/arielrp01/CourseraDataAnalyticsCapstone/blob/main/Cyclistic-Bikesharing-Case-Study.md) and 
 the [DataExplorer EDA report](https://drive.google.com/file/d/12HYfKabuqNUeHAMRuPNRDpq28AFsMYEv/view?usp=sharing).
