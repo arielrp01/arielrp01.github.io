@@ -26,7 +26,7 @@ Deliverables: Analysis report (.Rmd and .md formats), README.md, visualizations,
 
 R packages used included tidyverse, DataExplorer, janitor, and lubridate.
 
-View [DataExplorer EDA report](https://drive.google.com/file/d/12HYfKabuqNUeHAMRuPNRDpq28AFsMYEv/view?usp=sharing)
+View the [DataExplorer EDA report](https://drive.google.com/file/d/12HYfKabuqNUeHAMRuPNRDpq28AFsMYEv/view?usp=sharing)
 
 
 ### Additional Information
