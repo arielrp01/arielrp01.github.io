@@ -40,7 +40,7 @@ R packages used included tidyverse, DataExplorer, janitor, and lubridate.
 
 * Omit NAs, negative trip lengths, and maintenance checks.
 
-More info via the Cyclistic Bikesharing Case Study [.Rmd file](https://github.com/arielrp01/CourseraDataAnalyticsCapstone/blob/main/Cyclistic-Bikesharing-Case-Study.md) and 
+More info via the [Cyclistic Bikesharing Case Study .Rmd file](https://github.com/arielrp01/CourseraDataAnalyticsCapstone/blob/main/Cyclistic-Bikesharing-Case-Study.md) and 
 the [DataExplorer EDA report](https://drive.google.com/file/d/12HYfKabuqNUeHAMRuPNRDpq28AFsMYEv/view?usp=sharing).
 
 
