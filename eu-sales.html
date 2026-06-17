@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EU Sales Analysis | Ariel Richmond-Parks</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+</head>
+<body>
+<div class="site">
+  <aside class="sidebar">
+    <div>
+      <div class="sidebar-name">Ariel Richmond-Parks</div>
+      <div class="sidebar-tagline">Project, Program &amp; Product Leader &middot; AI Enablement &amp; Data Science &middot; Communications Strategy</div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section-label">Projects</div>
+      <a class="nav-item" href="index.html#ai-ml">AI &amp; Machine Learning</a>
+      <a class="nav-item active" href="index.html#data-products">Data Products &amp; Visualization</a>
+    </nav>
+    <div class="sidebar-links">
+      <a class="sidebar-link" href="https://www.linkedin.com/in/arielrichmondparks/" target="_blank">
+        <i class="ti ti-brand-linkedin"></i> LinkedIn
+      </a>
+      <a class="sidebar-link" href="https://github.com/arielrp01" target="_blank">
+        <i class="ti ti-brand-github"></i> GitHub
+      </a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <a class="project-back" href="index.html"><i class="ti ti-arrow-left" style="font-size:12px"></i> Back to portfolio</a>
+
+    <div class="project-eyebrow">Data Products &amp; Visualization</div>
+    <h1 class="project-title">EU Sales Analysis</h1>
+
+    <img class="project-image" src="images/eu-sales.png" alt="EU Sales Analysis screenshot"
+      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+    <div class="project-image-placeholder" style="display:none">screenshot coming soon — drop images/eu-sales.png to populate</div>
+
+    <p class="project-desc">An end-to-end interactive sales presentation built on a live Google Sheets data pipeline, with all metrics calculated dynamically at render time. Features interactive Plotly charts, a diverging year-over-year choropleth, and auto-derived key takeaways &mdash; deployed as a self-contained HTML deck on GitHub Pages.</p>
+
+    <p class="project-desc">The most technically demanding element is the Market Overview slide: a Leaflet choropleth built on rnaturalearth spatial polygons, requiring a geospatial join on country sovereignty fields rather than country names to correctly handle territorial edge cases. The slide combines a live KPI strip, a top-5 countries table, and the map &mdash; all assembled programmatically in R and rendered as a single output.</p>
+
+    <p class="project-desc">This type of interactive sales analysis is a standard business deliverable, commonly produced in Python or BI tools like Tableau. Built in R as part of the JHU Developing Data Products course, it demonstrates the same end-to-end workflow: live data pipeline, interactive visualization, and a self-contained deployed output.</p>
+
+    <div class="project-section-title">Stack</div>
+    <div class="project-tags" style="margin-bottom:2rem">
+      <span class="project-tag">R</span>
+      <span class="project-tag">R Markdown</span>
+      <span class="project-tag">Plotly</span>
+      <span class="project-tag">Leaflet</span>
+      <span class="project-tag">googlesheets4</span>
+      <span class="project-tag">tidyverse</span>
+      <span class="project-tag">ioslides</span>
+      <span class="project-tag">sf</span>
+      <span class="project-tag">rnaturalearth</span>
+    </div>
+
+    <div class="project-section-title">Links</div>
+    <div class="link-list">
+      <a class="link-item primary" href="https://arielrp01.github.io/eu_sales_presentation/" target="_blank">
+        <i class="ti ti-presentation link-icon"></i>
+        <div>
+          <div class="link-label">Presentation</div>
+          <div class="link-sub">arielrp01.github.io/eu_sales_presentation</div>
+        </div>
+      </a>
+      <a class="link-item" href="https://github.com/arielrp01/eu_sales_presentation" target="_blank">
+        <i class="ti ti-brand-github link-icon"></i>
+        <div>
+          <div class="link-label">Source Code</div>
+          <div class="link-sub">github.com/arielrp01/eu_sales_presentation</div>
+        </div>
+      </a>
+    </div>
+  </main>
+</div>
+</body>
+</html>

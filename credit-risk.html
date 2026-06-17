@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credit Default Risk App | Ariel Richmond-Parks</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+</head>
+<body>
+<div class="site">
+  <aside class="sidebar">
+    <div>
+      <div class="sidebar-name">Ariel Richmond-Parks</div>
+      <div class="sidebar-tagline">Project, Program &amp; Product Leader &middot; AI Enablement &amp; Data Science &middot; Communications Strategy</div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section-label">Projects</div>
+      <a class="nav-item active" href="index.html#ai-ml">AI &amp; Machine Learning</a>
+      <a class="nav-item" href="index.html#data-products">Data Products &amp; Visualization</a>
+    </nav>
+    <div class="sidebar-links">
+      <a class="sidebar-link" href="https://www.linkedin.com/in/arielrichmondparks/" target="_blank">
+        <i class="ti ti-brand-linkedin"></i> LinkedIn
+      </a>
+      <a class="sidebar-link" href="https://github.com/arielrp01" target="_blank">
+        <i class="ti ti-brand-github"></i> GitHub
+      </a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <a class="project-back" href="index.html"><i class="ti ti-arrow-left" style="font-size:12px"></i> Back to portfolio</a>
+
+    <div class="project-eyebrow">AI &amp; Machine Learning</div>
+    <h1 class="project-title">Credit Default Risk App</h1>
+
+    <img class="project-image" src="images/credit-risk.png" alt="Credit Default Risk App screenshot"
+      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+    <div class="project-image-placeholder" style="display:none">screenshot coming soon — drop images/credit-risk.png to populate</div>
+
+    <p class="project-desc">A two-stage project comparing a logistic regression baseline against an LSTM-based recurrent neural network for predicting loan default risk on 291,643 real loan records from the Home Credit Kaggle dataset. Modeled in Python &mdash; including feature engineering, stratified train/validation/test splits, and sequence construction for the RNN &mdash; then deployed as an interactive Shiny app in R with live threshold tuning, ROC and precision-recall curves, and a feature distribution explorer.</p>
+
+    <div class="stat-row">
+      <div class="stat-box">
+        <span class="stat-num">291k+</span>
+        <span class="stat-lbl">Loan records</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">0.605</span>
+        <span class="stat-lbl">Test AUC</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">8.2%</span>
+        <span class="stat-lbl">Default rate</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">70/15/15</span>
+        <span class="stat-lbl">Train/val/test split</span>
+      </div>
+    </div>
+
+    <div class="project-section-title">Stack</div>
+    <div class="project-tags" style="margin-bottom:2rem">
+      <span class="project-tag">Python</span>
+      <span class="project-tag">TensorFlow / Keras</span>
+      <span class="project-tag">scikit-learn</span>
+      <span class="project-tag">pandas</span>
+      <span class="project-tag">NumPy</span>
+      <span class="project-tag">R</span>
+      <span class="project-tag">Shiny</span>
+      <span class="project-tag">ggplot2</span>
+      <span class="project-tag">R Markdown</span>
+    </div>
+
+    <div class="project-section-title">Links</div>
+    <div class="link-list">
+      <a class="link-item primary" href="https://arielrp.shinyapps.io/project/" target="_blank">
+        <i class="ti ti-world link-icon"></i>
+        <div>
+          <div class="link-label">Live App</div>
+          <div class="link-sub">arielrp.shinyapps.io/project</div>
+        </div>
+      </a>
+      <a class="link-item" href="https://arielrp01.github.io/credit_risk_app/credit_risk_presentation.html" target="_blank">
+        <i class="ti ti-presentation link-icon"></i>
+        <div>
+          <div class="link-label">Presentation</div>
+          <div class="link-sub">Credit Default Risk slide deck</div>
+        </div>
+      </a>
+      <a class="link-item" href="https://github.com/arielrp01/credit_risk_app" target="_blank">
+        <i class="ti ti-brand-github link-icon"></i>
+        <div>
+          <div class="link-label">Source Code</div>
+          <div class="link-sub">github.com/arielrp01/credit_risk_app</div>
+        </div>
+      </a>
+    </div>
+  </main>
+</div>
+</body>
+</html>

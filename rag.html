@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agentic Verified RAG | Ariel Richmond-Parks</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+</head>
+<body>
+<div class="site">
+  <aside class="sidebar">
+    <div>
+      <div class="sidebar-name">Ariel Richmond-Parks</div>
+      <div class="sidebar-tagline">Project, Program &amp; Product Leader &middot; AI Enablement &amp; Data Science &middot; Communications Strategy</div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section-label">Projects</div>
+      <a class="nav-item active" href="index.html#ai-ml">AI &amp; Machine Learning</a>
+      <a class="nav-item" href="index.html#data-products">Data Products &amp; Visualization</a>
+    </nav>
+    <div class="sidebar-links">
+      <a class="sidebar-link" href="https://www.linkedin.com/in/arielrichmondparks/" target="_blank">
+        <i class="ti ti-brand-linkedin"></i> LinkedIn
+      </a>
+      <a class="sidebar-link" href="https://github.com/arielrp01" target="_blank">
+        <i class="ti ti-brand-github"></i> GitHub
+      </a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <a class="project-back" href="index.html"><i class="ti ti-arrow-left" style="font-size:12px"></i> Back to portfolio</a>
+
+    <div class="project-eyebrow">AI &amp; Machine Learning</div>
+    <h1 class="project-title">Agentic Verified RAG<br>for Health Insurance Plan QA</h1>
+
+    <img class="project-image" src="images/rag.png" alt="Agentic Verified RAG screenshot"
+      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+    <div class="project-image-placeholder" style="display:none">screenshot coming soon — drop images/rag.png to populate</div>
+
+    <p class="project-desc">A document-grounded question-answering system for health insurance plan documents, built iteratively to solve specific, diagnosable failure modes. The core is a deterministic solver with 5-way intent routing, anchor-based re-retrieval to eliminate plan-table row drift, a numeric verifier that checks dollar amounts and percentages token-by-token before returning, and a safety gate that blocks medical triage queries while allowing coverage questions using identical clinical terminology. An agentic verify &rarr; repair &rarr; retry loop wraps the solver for demos, adding traceability without affecting scored results. Improved from 93.9% (31/33) to 100% (33/33) on a hand-crafted gold-key evaluation set through targeted architectural iteration.</p>
+
+    <div class="stat-row">
+      <div class="stat-box">
+        <span class="stat-num">33/33</span>
+        <span class="stat-lbl">Gold-key accuracy</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">93.9%&rarr;100%</span>
+        <span class="stat-lbl">Improvement through iteration</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">5-way</span>
+        <span class="stat-lbl">Intent classification</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num">3</span>
+        <span class="stat-lbl">Model engines</span>
+      </div>
+    </div>
+
+    <div class="project-section-title">Stack</div>
+    <div class="project-tags" style="margin-bottom:2rem">
+      <span class="project-tag">Python</span>
+      <span class="project-tag">FAISS</span>
+      <span class="project-tag">SentenceTransformers</span>
+      <span class="project-tag">HuggingFace Transformers</span>
+      <span class="project-tag">roberta-large-squad2</span>
+      <span class="project-tag">FLAN-T5</span>
+      <span class="project-tag">Docling</span>
+      <span class="project-tag">Gradio</span>
+      <span class="project-tag">PyTorch</span>
+      <span class="project-tag">Google Colab</span>
+    </div>
+
+    <div class="project-section-title">Links</div>
+    <div class="link-list">
+      <a class="link-item primary" href="https://colab.research.google.com/drive/1PzBQn4WJHSE2ZJtVK5P1nhPqTlPjoWBD?usp=sharing" target="_blank">
+        <i class="ti ti-brand-google link-icon"></i>
+        <div>
+          <div class="link-label">Notebook</div>
+          <div class="link-sub">Google Colab</div>
+        </div>
+      </a>
+      <a class="link-item" href="rag_presentation.html" target="_blank">
+        <i class="ti ti-presentation link-icon"></i>
+        <div>
+          <div class="link-label">Presentation</div>
+          <div class="link-sub">Agentic Verified RAG slide deck</div>
+        </div>
+      </a>
+    </div>
+  </main>
+</div>
+</body>
+</html>
