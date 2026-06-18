@@ -39,8 +39,12 @@
       onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
     <div class="project-image-placeholder" style="display:none">screenshot coming soon — drop images/credit-risk.png to populate</div>
 
-    <p class="project-desc">A two-stage project comparing a logistic regression baseline against an LSTM-based recurrent neural network for predicting loan default risk on 291,643 real loan records from the Home Credit Kaggle dataset. Modeled in Python &mdash; including feature engineering, stratified train/validation/test splits, and sequence construction for the RNN &mdash; then deployed as an interactive Shiny app in R with live threshold tuning, ROC and precision-recall curves, and a feature distribution explorer.</p>
+    <p class="project-desc">Predicting loan default sounds straightforward until you account for class imbalance. At an 8.2% default rate, a model that flags no one as high risk achieves over 90% accuracy while catching zero defaulters. Accuracy is the wrong metric. The real question is whether a model can identify the borrowers who matter, without rejecting too many creditworthy applicants.</p>
 
+    <p class="project-desc">This project began as a Python comparison of logistic regression against an LSTM/RNN baseline. The logistic model's interpretability made it the right choice for deployment: in credit scoring, regulatory scrutiny favors explainable, auditable models over black-box alternatives. Features were engineered from 291,643 real loan records from the Home Credit dataset, drawing on payment history: fraction of late payments, mean and max days late, pay ratio, and loan amount, among others. The model was evaluated on a held-out test set using AUC, recall, and precision-recall curves rather than accuracy.</p>
+
+    <p class="project-desc">The R/Shiny app makes the model interactive: enter an applicant profile to get a default probability and risk verdict, drag the decision threshold to see recall and precision update live, and explore feature distributions by default status.</p>
+    
     <div class="stat-row">
       <div class="stat-box">
         <span class="stat-num">291k+</span>
@@ -53,10 +57,6 @@
       <div class="stat-box">
         <span class="stat-num">8.2%</span>
         <span class="stat-lbl">Default rate</span>
-      </div>
-      <div class="stat-box">
-        <span class="stat-num">70/15/15</span>
-        <span class="stat-lbl">Train/val/test split</span>
       </div>
     </div>
 
