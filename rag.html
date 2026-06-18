@@ -35,9 +35,9 @@
     <div class="project-eyebrow">AI &amp; Machine Learning</div>
     <h1 class="project-title">Agentic Verified RAG<br>for Health Insurance Plan QA</h1>
 
-    <video class="project-image" style="width:50%;" controls>
+    <video class="project-image" style="width:50%; display:block;" controls>
     <source src="images/Gradio_demo.webm" type="video/webm">
-    Your browser does not support the video tag.
+      Your browser does not support the video tag.
     </video>
 
     <p class="project-desc">A document-grounded question-answering system for health insurance plan documents, built iteratively to solve specific, diagnosable failure modes. The core is a deterministic solver with 5-way intent routing, anchor-based re-retrieval to eliminate plan-table row drift, a numeric verifier that checks dollar amounts and percentages token-by-token before returning, and a safety gate that blocks medical triage queries while allowing coverage questions using identical clinical terminology. An agentic verify &rarr; repair &rarr; retry loop wraps the solver for demos, adding traceability without affecting scored results. Improved from 93.9% (31/33) to 100% (33/33) on a hand-crafted gold-key evaluation set through targeted architectural iteration.</p>
