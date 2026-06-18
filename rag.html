@@ -40,16 +40,16 @@
       Your browser does not support the video tag.
     </video>
 
-    <p class="project-desc">A document-grounded question-answering system for health insurance plan documents, built iteratively to solve specific, diagnosable failure modes. The core is a deterministic solver with 5-way intent routing, anchor-based re-retrieval to eliminate plan-table row drift, a numeric verifier that checks dollar amounts and percentages token-by-token before returning, and a safety gate that blocks medical triage queries while allowing coverage questions using identical clinical terminology. An agentic verify &rarr; repair &rarr; retry loop wraps the solver for demos, adding traceability without affecting scored results. Improved from 93.9% (31/33) to 100% (33/33) on a hand-crafted gold-key evaluation set through targeted architectural iteration.</p>
+    <p class="project-desc">Health insurance plan documents are dense, inconsistent, and full of dollar amounts and plan-specific terminology that small wording differences can completely change. Standard RAG systems fail here in predictable ways: they retrieve the wrong row from a benefits table, hallucinate a dollar figure, or confidently answer a medical triage question they should refuse.</p>
 
+    <p class="project-desc">The solution is a deterministic solver with 5-way intent routing, anchor-based re-retrieval to eliminate plan-table row drift, and a numeric verifier that checks dollar amounts and percentages token-by-token before returning an answer. A safety gate blocks medical triage queries while allowing coverage questions that use identical clinical terminology. An agentic verify &rarr; repair &rarr; retry loop wraps the solver, adding traceability without affecting scored results.</p>
+
+    <p class="project-desc">Built iteratively against a hand-crafted gold-key evaluation set, the system improved from 93.9% (31/33) to 100% (33/33) through targeted architectural iteration &mdash; each failure mode diagnosed, addressed, and re-evaluated before moving to the next.</p>
+    
     <div class="stat-row">
       <div class="stat-box">
         <span class="stat-num">33/33</span>
         <span class="stat-lbl">Gold-key accuracy</span>
-      </div>
-      <div class="stat-box">
-        <span class="stat-num">93.9%&rarr;100%</span>
-        <span class="stat-lbl">Improvement through iteration</span>
       </div>
       <div class="stat-box">
         <span class="stat-num">5-way</span>
