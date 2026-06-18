@@ -40,11 +40,11 @@
       Your browser does not support the video tag.
     </video>
 
-    <p class="project-desc">Health insurance plan documents are dense, inconsistent, and full of dollar amounts and plan-specific terminology that small wording differences can completely change. Standard RAG systems fail here in predictable ways: they retrieve the wrong row from a benefits table, hallucinate a dollar figure, or confidently answer a medical triage question they should refuse.</p>
-
+    <p class="project-desc">Health insurance plan documents are dense, inconsistent, and structurally unlike the text most RAG systems are built to handle. Standard RAG systems fail here in predictable ways. They retrieve the wrong row from a benefits table, hallucinate a dollar figure, or confidently answer a medical triage question they should refuse.</p>
+    
     <p class="project-desc">The solution is a deterministic solver with 5-way intent routing, anchor-based re-retrieval to eliminate plan-table row drift, and a numeric verifier that checks dollar amounts and percentages token-by-token before returning an answer. A safety gate blocks medical triage queries while allowing coverage questions that use identical clinical terminology. An agentic verify &rarr; repair &rarr; retry loop wraps the solver, adding traceability without affecting scored results.</p>
 
-    <p class="project-desc">Built iteratively against a hand-crafted gold-key evaluation set, the system improved from 93.9% (31/33) to 100% (33/33) through targeted architectural iteration: each failure mode diagnosed, addressed, and re-evaluated before moving to the next.</p>
+    <p class="project-desc">Built iteratively against a hand-crafted gold-key evaluation set, the system improved from 93.9% (31/33) to 100% (33/33) through targeted architectural iteration. Each failure mode was fully diagnosed, addressed, and re-evaluated before moving to the next.</p>
     
     <div class="stat-row">
       <div class="stat-box">
