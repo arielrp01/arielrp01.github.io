@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Readout | Ariel Richmond-Parks</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+</head>
+<body>
+<div class="site">
+  <aside class="sidebar">
+    <div>
+      <div class="sidebar-name">Ariel Richmond-Parks</div>
+      <div class="sidebar-tagline">Project, Program &amp; Product Leader &middot; Data Science &amp; AI Enablement &middot; Marketing &amp; Communications Strategy</div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section-label">Projects</div>
+      <a class="nav-item" href="index.html#ai-ml">AI &amp; Machine Learning</a>
+      <a class="nav-item active" href="index.html#data-products">Data Products &amp; Visualizations</a>
+    </nav>
+    <div class="sidebar-links">
+      <a class="sidebar-link" href="https://www.linkedin.com/in/arielrichmondparks/" target="_blank">
+        <i class="ti ti-brand-linkedin"></i> LinkedIn
+      </a>
+      <a class="sidebar-link" href="https://github.com/arielrp01" target="_blank">
+        <i class="ti ti-brand-github"></i> GitHub
+      </a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <a class="project-back" href="index.html"><i class="ti ti-arrow-left" style="font-size:12px"></i> Back to portfolio</a>
+
+    <div class="project-eyebrow">Data Products &amp; Visualizations</div>
+    <h1 class="project-title">Readout</h1>
+
+    <img class="project-image" src="images/readout.png" alt="Readout screenshot"
+      onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+    <div class="project-image-placeholder" style="display:none">screenshot coming soon — drop images/readout.png to populate</div>
+
+    <p class="project-desc">Readout is a Python data product that traces the drug development pipeline from clinical trial registration to FDA approval, using live data from two public government APIs. It lets users explore interventional trial activity by therapeutic area and filter by development phase, year range, and sponsor type while surfacing the competitive landscape that pharma strategy, business development, and clinical operations teams work from daily.</p>
+
+    <p class="project-desc">The most technically demanding element is the data pipeline. ClinicalTrials.gov's v2 API requires paginated requests with pipe-separated field selectors and returns deeply nested JSON with inconsistent date formatting across records. The fetcher handles pagination via cursor tokens, applies a delay between requests, and uses pandas to parse dates gracefully without dropping rows. API responses are cached for one hour, keeping the app responsive during repeated filtering without hammering the government endpoints.</p>
+
+    <p class="project-desc">Pipeline intelligence tools of this kind are standard analytical deliverables in pharma business development and competitive intelligence. This project demonstrates the same end-to-end workflow: live API pipelines, domain-specific data wrangling, and a deployed interactive product using Python and Streamlit rather than proprietary BI tooling.</p>
+
+    <div class="project-section-title">Stack</div>
+    <div class="project-tags" style="margin-bottom:2rem">
+      <span class="project-tag">Python</span>
+      <span class="project-tag">Streamlit</span>
+      <span class="project-tag">Plotly</span>
+      <span class="project-tag">pandas</span>
+      <span class="project-tag">requests</span>
+      <span class="project-tag">ClinicalTrials.gov API v2</span>
+      <span class="project-tag">openFDA</span>
+    </div>
+
+    <div class="project-section-title">Links</div>
+    <div class="link-list">
+      <a class="link-item primary" href="https://readout.streamlit.app" target="_blank">
+        <i class="ti ti-chart-bar link-icon"></i>
+        <div>
+          <div class="link-label">Live App</div>
+          <div class="link-sub">https://readout.streamlit.app</div>
+        </div>
+      </a>
+      <a class="link-item" href="https://github.com/arielrp01/readout" target="_blank">
+        <i class="ti ti-brand-github link-icon"></i>
+        <div>
+          <div class="link-label">Source Code</div>
+          <div class="link-sub">github.com/arielrp01/readout</div>
+        </div>
+      </a>
+    </div>
+  </main>
+</div>
+</body>
+</html>
