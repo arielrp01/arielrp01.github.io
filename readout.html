@@ -39,12 +39,41 @@
       onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
     <div class="project-image-placeholder" style="display:none">screenshot coming soon</div>
 
-    <p class="project-desc">Readout is a Python data product that traces the drug development pipeline from clinical trial registration to FDA approval, using live data from two public government APIs. It lets users explore interventional trial activity by therapeutic area and filter by development phase, year range, and sponsor type while surfacing the competitive landscape that pharma strategy, business development, and clinical operations teams work from daily.</p>
+    <p class="project-desc">
+  Readout is a Python data product that traces the drug development pipeline from clinical
+  trial registration to FDA approval, using live data from two public government APIs. It lets
+  users explore interventional trial activity by therapeutic area and filter by development
+  phase, year range, and sponsor type while surfacing the competitive landscape that pharma
+  strategy, business development, and clinical operations teams work from daily.
+</p>
 
-    <p class="project-desc">The most technically demanding element is the data pipeline. ClinicalTrials.gov's v2 API requires paginated requests with pipe-separated field selectors and returns deeply nested JSON with inconsistent date formatting across records. The fetcher handles pagination via cursor tokens, applies a delay between requests, and uses pandas to parse dates gracefully without dropping rows. API responses are cached for one hour, keeping the app responsive during repeated filtering without hammering the government endpoints.</p>
+<p class="project-desc">
+  The most technically demanding element is the data pipeline. ClinicalTrials.gov's v2 API
+  requires paginated requests with pipe-separated field selectors and returns deeply nested
+  JSON with inconsistent date formatting across records. The fetcher handles pagination via
+  cursor tokens, applies a delay between requests, and uses pandas to parse dates gracefully
+  without dropping rows. API responses are cached for one hour, keeping the app responsive
+  during repeated filtering without hammering the government endpoints.
+</p>
 
-    <p class="project-desc">Tools like this are standard deliverables in pharma business development and competitive intelligence. This project demonstrates the same end-to-end workflow: live API pipelines, domain-specific data wrangling, and a deployed interactive product using Python and Streamlit rather than proprietary BI tooling.</p>
+<p class="project-desc">
+  Version 2 adds an AI analyst brief layer. After filtering, a single button call passes the
+  structured dataset to Claude and returns a four-section brief covering pipeline summary,
+  competitive landscape, key signals, and a takeaway tailored for a business development audience. The brief renders as tabbed output below the existing
+  charts and exports cleanly to Markdown.
+</p>
 
+<p class="project-desc">
+The model choice is deliberate. Retrieval, classification, and structured extraction are tasks where open-source models plus harness engineering are cost-competitive with proprietary APIs. 
+Frontier models justify their cost on a different kind of task: taking structured signals and producing a reasoned, domain-fluent narrative. 
+Within the frontier tier, Sonnet 4.6 was chosen over Opus because the task lives well inside frontier capability without requiring the reasoning ceiling. 
+Using Opus would have added latency and cost without improving brief quality.
+</p>
+
+<p class="project-desc">
+The real chore in pharma competitive intelligence is getting to a clean enough signal to summarize from. ClinicalTrials.gov and openFDA are powerful, public, and free, but the data is fragmented, inconsistent, and exhausting to assemble into a usable view. Readout collapses that upstream work into an interactive surface, and v2's brief generator handles the last-mile synthesis, taking the cleaned signal and turning it into something a business development audience can act on. 
+A v3 would ground the brief in a pharma reference corpus, constraining the model to dataset-observed claims, while still allowing external context where it's well-sourced.
+</p>
     <div class="project-section-title">Stack</div>
     <div class="project-tags" style="margin-bottom:2rem">
       <span class="project-tag">Python</span>
@@ -52,6 +81,7 @@
       <span class="project-tag">Plotly</span>
       <span class="project-tag">pandas</span>
       <span class="project-tag">requests</span>
+      <span class="project-tag">Antropic Claude API</span>
       <span class="project-tag">ClinicalTrials.gov API v2</span>
       <span class="project-tag">OpenFDA</span>
     </div>
